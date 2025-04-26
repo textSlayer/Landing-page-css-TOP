@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    background-color: #FFD1DC;
+}
+.for_color{
+    background-color: #FFE5B4;
+    padding: 20px;
+    margin: 0%;
+}
+#logo{
+    font-size: 3.5em;
+    font-family: monospace;
+    font-weight: 2em;
+    color: #3E3A39
+}
+.side_links{
+    margin-left: 1000px; /* adds space to the left side of the div */
+    font-family: monospace;
+    font-weight: 3em;  
+    font-size: 1.3em; 
+    margin: 20px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.988);
+}
+.header02_container {
+    display: flex;
+    justify-content: space-between; /* pushes them to far left and right */
+    align-items: center; /* aligns vertically center */
+    color: #3E3A39;
+  }
+  
+.text001 {
+    flex: 1; /* take up space */
+    margin-left: 50px;
+    padding: 20px;
+    line-height: .1.2;
+  }
+  
+  .img001{
+    max-width: 100%; /* so it doesn't overflow */
+    height: auto;
+    margin-right: 25px;
+    padding: 5px;
+    border: 5px solid;
+    border-radius: 7px;
+    transition: 1.5s;
+    
+}
+.img001:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    border-color: #8B5A2B;
+}
+  #p001{
+    font-family: monospace;
+    font-size: 3em;
+    
+  }
+  #p002{
+    font-family: monospace;
+    font-size: 2em;
+    
+
+  }
+ 
+.btn001{
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 10 15 15 15;
+    border-radius: 10px;
+    background-color: hsl(192, 72%, 72%);
+    color: black;
+    border: 5px solid;
+    border-color:rgb(205, 224, 242);
+    transition: 1s;
+    
+}
+.btn001:hover{
+    background-color: hsl(206, 86%, 51%); 
+    transform:scale(1.025);
+    z-index: 2;
+    border-color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+   
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+#header03{
+    font-size: 2.88em;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    margin: 0px;
+    padding: 10px;
+    color:#3E3A39;
+    background-color: #FFD1DC;
+
+}
+.images002{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.signing_up{
+    display: flex;
+}
+h4{
+    font-family: monospace;
+    font-size: 1.5em;
+    margin: 20px;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.for_hovering{
+    margin: 40px;
+    transition: .5s;
+    border: 2.5px solid  rgb(0, 0, 0);
+    
+}
+#button02{
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 10 15 15 15;
+    border-radius: 10px;
+    background-color: hsl(192, 72%, 72%);
+    color: black;
+    border: 5px solid;
+    border-color:rgb(205, 224, 242);
+    transition: 1s;
+    
+}
+#button02:hover{
+    background-color: hsl(206, 86%, 51%); 
+    transform:scale(1.025);
+    z-index: 2;
+    border-color: black;
+}
+
+
+
+
+.for_hovering:hover {
+    transform: scale(1.20);
+    z-index: 2;
+    border:3px dotted;
+    border-color: #8B5A2B;
+    
+}
+
+
+
+#qs_p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.signing_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 200px 100px 200px;
+    background-color: rgb(51, 51, 229);
+    border-radius: 10px;
+    color: rgb(213, 213, 213);
+}
+#h2{
+    font-family: monospace;
+    font-size: 3em;
+}
+#lol{
+    font-family: monospace;
+    font-size: 1.5em;
+    
+}
+.quote_section{
+    font-size: 36px;
+    font-style:italic;
+    margin: 100px 0px 25px 0px;
+    background-color: #e5e7eb;
+    padding: 20px 100px 20px 100px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #595758;
+    font-size: 2em;
+    color: aliceblue;
+    font-family: monospace;
+    padding: 50px;
+}
